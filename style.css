@@ -204,6 +204,11 @@ body {
   html {
     margin: 5px;
   }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   .about-me-container {
     width: 100%;
     flex-direction: column;
