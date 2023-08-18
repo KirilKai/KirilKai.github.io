@@ -1,3 +1,4 @@
+/*#region Basic*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 * {
@@ -6,15 +7,67 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+html {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 body {
-  background: #ffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(194, 194, 194);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/*#endregion Basic*/
+
+/*#region About*/
+.about-me-container {
+  display: flex;
+  width: 100%;
+  margin: 30px;
+  margin: 0 auto;
+  background-color: #191919;
+  margin-bottom: 20px;
+}
+
+.about-me-left {
+  width: 30%;
+}
+
+.img-container {
+  position: relative;
+  margin: 2rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.profile-pic {
+  border-radius: 50%;
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 80%;
+  height: 80%;
+}
+
+.about-me-right {
+  width: 70%;
+  border: 2px solid yellow;
+}
+/*#endregion About*/
+
+/*#region Cards*/
+
+.card-section {
+  width: 100%;
+  background-color: #a47008;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 .card-container {
   display: flex;
   justify-content: center;
@@ -26,7 +79,7 @@ body {
 
 .card {
   position: relative;
-  background: #ffff;
+  background-color: rgb(194, 194, 194);
   width: 350px;
   box-shadow: 0 5px 25px rgba(2, 2, 2, 0.25);
   border-radius: 10px;
@@ -69,7 +122,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, #fff, transparent);
+  background: linear-gradient(to top, rgb(194, 194, 194), transparent);
   display: none;
 }
 
@@ -88,8 +141,28 @@ body {
 .card-content .see-more-btn:hover {
   color: #111;
 }
+/*#endregion Cards*/
 
+/*#region Media*/
 @media screen and (max-width: 450px) {
+  .about-me-container {
+    width: 100%;
+    margin: 15px;
+    flex-direction: column;
+  }
+  .about-me-left {
+    margin: 0 auto;
+  }
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+  }
+  .about-me-right {
+    width: 100%;
+  }
+  .card-section {
+    margin: 15px;
+  }
   .card-container {
     margin: 15px;
   }
@@ -102,3 +175,4 @@ body {
     height: auto;
   }
 }
+/*#endregion Media*/
