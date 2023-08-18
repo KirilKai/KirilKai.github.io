@@ -22,13 +22,13 @@ body {
 }
 /*#endregion Basic*/
 
-/*#region About*/
+/*#region Hello*/
 .about-me-container {
   display: flex;
   width: 100%;
   margin: 30px;
   margin: 0 auto;
-  background-color: #191919;
+  background-color: #18425f80;
   margin-bottom: 20px;
 }
 
@@ -54,19 +54,63 @@ body {
 
 .about-me-right {
   width: 70%;
-  border: 2px solid yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.about-me-right h1 {
+  font-size: 3em;
+}
+.about-me-right h2 {
+  font-size: 2.5em;
+}
+.about-me-right h3 {
+  font-size: 2em;
+}
+.about-me-right span {
+  color: #102b3f;
+  text-shadow: 5px 5px 5px rgba(214, 232, 22, 0.655);
+}
+/*#endregion Hello*/
+
+/*#region About*/
+.about-me-info-container {
+  width: 100%;
+  display: flex;
+  border-radius: 30px;
+  border: 3px solid #18425f80;
+  min-height: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.about-me-info-left {
+  padding: 10px;
+  width: 50%;
+}
+.about-me-info-right {
+  padding: 10px;
+  width: 50%;
+}
+.about-me-info-left h1 {
+  text-align: center;
+}
+.about-me-info-right h1 {
+  text-align: center;
 }
 /*#endregion About*/
 
 /*#region Cards*/
-
 .card-section {
   width: 100%;
-  background-color: #a47008;
+  background-color: #18425f80;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 .card-container {
   display: flex;
@@ -143,6 +187,18 @@ body {
 }
 /*#endregion Cards*/
 
+/*#region Contact*/
+.contact-me-container {
+  border-radius: 30px;
+  border: 3px solid #18425f80;
+  min-height: 300px;
+  margin-bottom: 20px;
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+}
+/*#endregion Contact*/
+
 /*#region Media*/
 @media screen and (max-width: 450px) {
   html {
@@ -173,6 +229,16 @@ body {
     width: 100%;
     max-width: 800px;
     height: auto;
+  }
+  .about-me-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me-info-left {
+    width: 100%;
+  }
+  .about-me-info-right {
+    width: 100%;
   }
 }
 /*#endregion Media*/
