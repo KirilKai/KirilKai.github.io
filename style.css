@@ -17,7 +17,7 @@ body {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: rgb(194, 194, 194);
+  background-color: rgb(181, 182, 187);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -78,7 +78,7 @@ body {
 }
 
 .about-me-right span {
-  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.2);
+  text-shadow: 5px 5px 1px rgba(13, 0, 255, 0.05);
 }
 /*#endregion Hello*/
 
@@ -104,12 +104,12 @@ body {
 
 .about-me-info-left h1 {
   text-align: center;
-  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.2);
+  text-shadow: 5px 5px 1px rgba(13, 0, 255, 0.05);
 }
 
 .about-me-info-right h1 {
   text-align: center;
-  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.2);
+  text-shadow: 5px 5px 1px rgba(13, 0, 255, 0.05);
 }
 /*#endregion About*/
 
@@ -202,7 +202,7 @@ body {
 }
 
 .card-section h1 {
-  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.2);
+  text-shadow: 5px 5px 1px rgba(13, 0, 255, 0.05);
   margin-top: 20px;
 }
 /*#endregion Cards*/
@@ -220,7 +220,7 @@ body {
 }
 
 .contact-me-container h1 {
-  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.2);
+  text-shadow: 5px 5px 1px rgba(13, 0, 255, 0.05);
 }
 /*#endregion Contact*/
 
