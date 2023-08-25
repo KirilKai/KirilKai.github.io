@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 html {
   max-width: 1200px;
   margin: 0 auto;
@@ -28,7 +29,8 @@ body {
   width: 100%;
   margin: 30px;
   margin: 0 auto;
-  background-color: #18425f80;
+  border-radius: 10px;
+  background-color: rgba(101, 100, 100, 0.4);
   margin-bottom: 20px;
 }
 
@@ -64,15 +66,18 @@ body {
 .about-me-right h1 {
   font-size: 3em;
 }
+
 .about-me-right h2 {
   font-size: 2.5em;
+  margin-bottom: 50px;
 }
+
 .about-me-right h3 {
   font-size: 2em;
 }
+
 .about-me-right span {
-  color: #102b3f;
-  text-shadow: 5px 5px 5px rgba(214, 232, 22, 0.655);
+  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
 }
 /*#endregion Hello*/
 
@@ -81,37 +86,47 @@ body {
   width: 100%;
   display: flex;
   border-radius: 30px;
-  border: 3px solid #18425f80;
+  border-top: 3px solid rgba(101, 100, 100, 0.4);
+  border-bottom: 3px solid rgba(101, 100, 100, 0.4);
   min-height: 300px;
   margin-bottom: 20px;
   padding: 10px;
 }
+
 .about-me-info-left {
   padding: 10px;
   width: 50%;
 }
+
 .about-me-info-right {
   padding: 10px;
   width: 50%;
 }
+
 .about-me-info-left h1 {
   text-align: center;
+  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
 }
+
 .about-me-info-right h1 {
   text-align: center;
+  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
 }
 /*#endregion About*/
 
 /*#region Cards*/
 .card-section {
   width: 100%;
-  background-color: #18425f80;
+  border-radius: 10px;
+  background-color: rgba(101, 100, 100, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 20px;
+  flex-direction: column;
 }
+
 .card-container {
   display: flex;
   justify-content: center;
@@ -185,63 +200,95 @@ body {
 .card-content .see-more-btn:hover {
   color: #111;
 }
+
+.card-section h1 {
+  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
+  margin-top: 20px;
+  padding: 10px;
+}
 /*#endregion Cards*/
 
 /*#region Contact*/
 .contact-me-container {
   border-radius: 30px;
-  border: 3px solid #18425f80;
+  border-top: 3px solid rgba(101, 100, 100, 0.4);
+  border-bottom: 3px solid rgba(101, 100, 100, 0.4);
   min-height: 300px;
   margin-bottom: 20px;
   padding: 30px;
   width: 100%;
   text-align: center;
 }
+
+.contact-me-container h1 {
+  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
+}
 /*#endregion Contact*/
 
 /*#region Media*/
 @media screen and (max-width: 450px) {
-  html {
-    margin: 5px;
-  }
   body {
     width: 100%;
+    margin: 5px;
     overflow-x: hidden;
   }
 
   .about-me-container {
     width: 100%;
     flex-direction: column;
+    margin-bottom: 250px;
   }
+
   .about-me-left {
     margin: 0 auto;
   }
+
   .profile-pic {
     width: 250px;
     height: 250px;
   }
+
   .about-me-right {
     width: 100%;
+  }
+
+  .about-me-right h2 {
+    margin-bottom: 15px;
+  }
+
+  .about-me-right h3 {
+    margin-bottom: 30px;
+  }
+
+  .card-section {
+    margin-bottom: 250px;
   }
 
   .card-container {
     margin: 15px;
   }
+
   .card {
     width: 100%;
   }
+
   .card .card-img {
     width: 100%;
     max-width: 800px;
     height: auto;
   }
+
   .about-me-info-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 250px;
   }
+
   .about-me-info-left {
     width: 100%;
+    margin-bottom: 125px;
   }
+
   .about-me-info-right {
     width: 100%;
   }
