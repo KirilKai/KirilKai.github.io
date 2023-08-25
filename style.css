@@ -14,6 +14,7 @@ html {
 }
 
 body {
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: rgb(194, 194, 194);
@@ -90,16 +91,14 @@ body {
   border-bottom: 3px solid rgba(101, 100, 100, 0.4);
   min-height: 300px;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 30px;
 }
 
 .about-me-info-left {
-  padding: 10px;
   width: 50%;
 }
 
 .about-me-info-right {
-  padding: 10px;
   width: 50%;
 }
 
@@ -204,7 +203,6 @@ body {
 .card-section h1 {
   text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
   margin-top: 20px;
-  padding: 10px;
 }
 /*#endregion Cards*/
 
@@ -215,9 +213,9 @@ body {
   border-bottom: 3px solid rgba(101, 100, 100, 0.4);
   min-height: 300px;
   margin-bottom: 20px;
-  padding: 30px;
   width: 100%;
   text-align: center;
+  padding: 30px;
 }
 
 .contact-me-container h1 {
@@ -264,6 +262,11 @@ body {
     margin-bottom: 250px;
   }
 
+  .card-section h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .card-container {
     margin: 15px;
   }
@@ -291,6 +294,14 @@ body {
 
   .about-me-info-right {
     width: 100%;
+  }
+
+  .about-me-info-left h1 {
+    margin-bottom: 20px;
+  }
+
+  .about-me-info-right h1 {
+    margin-bottom: 20px;
   }
 }
 /*#endregion Media*/
