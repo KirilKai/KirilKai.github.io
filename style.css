@@ -28,10 +28,10 @@ body {
 .about-me-container {
   display: flex;
   width: 100%;
-  margin: 30px;
   margin: 0 auto;
-  border-radius: 10px;
-  background-color: rgba(101, 100, 100, 0.4);
+  border-radius: 30px;
+  border-top: 3px solid rgba(101, 100, 100, 0.4);
+  border-bottom: 3px solid rgba(101, 100, 100, 0.4);
   margin-bottom: 20px;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 .about-me-right span {
-  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
+  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.2);
 }
 /*#endregion Hello*/
 
@@ -91,7 +91,7 @@ body {
   border-bottom: 3px solid rgba(101, 100, 100, 0.4);
   min-height: 300px;
   margin-bottom: 20px;
-  /*padding: 30px;*/
+  padding: 30px;
 }
 
 .about-me-info-left {
@@ -104,20 +104,21 @@ body {
 
 .about-me-info-left h1 {
   text-align: center;
-  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
+  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.2);
 }
 
 .about-me-info-right h1 {
   text-align: center;
-  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
+  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.2);
 }
 /*#endregion About*/
 
 /*#region Cards*/
 .card-section {
   width: 100%;
-  border-radius: 10px;
-  background-color: rgba(101, 100, 100, 0.4);
+  border-radius: 30px;
+  border-top: 3px solid rgba(101, 100, 100, 0.4);
+  border-bottom: 3px solid rgba(101, 100, 100, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,7 +202,7 @@ body {
 }
 
 .card-section h1 {
-  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
+  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.2);
   margin-top: 20px;
 }
 /*#endregion Cards*/
@@ -215,20 +216,25 @@ body {
   margin-bottom: 20px;
   width: 100%;
   text-align: center;
-  /*padding: 30px;*/
+  padding: 30px;
 }
 
 .contact-me-container h1 {
-  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.3);
+  text-shadow: 5px 5px 5px rgba(255, 221, 0, 0.2);
 }
 /*#endregion Contact*/
 
 /*#region Media*/
 @media screen and (max-width: 450px) {
+  html,
   body {
-    width: 100%;
-    margin: 5px;
     overflow-x: hidden;
+    position: relative;
+    width: calc(100% - 5px);
+  }
+
+  body {
+    margin: 5px;
   }
 
   .about-me-container {
@@ -282,6 +288,7 @@ body {
   }
 
   .about-me-info-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 250px;
