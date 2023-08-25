@@ -17,7 +17,7 @@ body {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: rgb(169, 171, 188);
+  background-color: rgb(194, 194, 194);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,8 +30,8 @@ body {
   width: 100%;
   margin: 0 auto;
   border-radius: 30px;
-  border-top: 3px solid rgba(101, 100, 100, 0.4);
-  border-bottom: 3px solid rgba(101, 100, 100, 0.4);
+  border-top: 3px solid rgba(2, 2, 2, 0.25);
+  border-bottom: 3px solid rgba(2, 2, 2, 0.25);
   margin-bottom: 20px;
 }
 
@@ -78,7 +78,8 @@ body {
 }
 
 .about-me-right span {
-  text-shadow: 5px 5px 1px rgba(17, 18, 20, 0.1);
+  text-shadow: 0 5px 15px rgba(2, 2, 2, 0.25);
+  border-bottom: 2px solid rgba(2, 2, 2, 0.25);
 }
 /*#endregion Hello*/
 
@@ -87,8 +88,8 @@ body {
   width: 100%;
   display: flex;
   border-radius: 30px;
-  border-top: 3px solid rgba(101, 100, 100, 0.4);
-  border-bottom: 3px solid rgba(101, 100, 100, 0.4);
+  border-top: 3px solid rgba(2, 2, 2, 0.25);
+  border-bottom: 3px solid rgba(2, 2, 2, 0.25);
   min-height: 300px;
   margin-bottom: 20px;
   padding: 30px;
@@ -104,12 +105,12 @@ body {
 
 .about-me-info-left h1 {
   text-align: center;
-  text-shadow: 5px 5px 1px rgba(13, 0, 255, 0.05);
+  text-shadow: 0 5px 15px rgba(2, 2, 2, 0.25);
 }
 
 .about-me-info-right h1 {
   text-align: center;
-  text-shadow: 5px 5px 1px rgba(13, 0, 255, 0.05);
+  text-shadow: 0 5px 15px rgba(2, 2, 2, 0.25);
 }
 /*#endregion About*/
 
@@ -117,8 +118,8 @@ body {
 .card-section {
   width: 100%;
   border-radius: 30px;
-  border-top: 3px solid rgba(101, 100, 100, 0.4);
-  border-bottom: 3px solid rgba(101, 100, 100, 0.4);
+  border-top: 3px solid rgba(2, 2, 2, 0.25);
+  border-bottom: 3px solid rgba(2, 2, 2, 0.25);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,7 +203,7 @@ body {
 }
 
 .card-section h1 {
-  text-shadow: 5px 5px 1px rgba(13, 0, 255, 0.05);
+  text-shadow: 0 5px 15px rgba(2, 2, 2, 0.25);
   margin-top: 20px;
 }
 /*#endregion Cards*/
@@ -210,8 +211,8 @@ body {
 /*#region Contact*/
 .contact-me-container {
   border-radius: 30px;
-  border-top: 3px solid rgba(101, 100, 100, 0.4);
-  border-bottom: 3px solid rgba(101, 100, 100, 0.4);
+  border-top: 3px solid rgba(2, 2, 2, 0.25);
+  border-bottom: 3px solid rgba(2, 2, 2, 0.25);
   min-height: 300px;
   margin-bottom: 20px;
   width: 100%;
@@ -220,7 +221,7 @@ body {
 }
 
 .contact-me-container h1 {
-  text-shadow: 5px 5px 1px rgba(13, 0, 255, 0.05);
+  text-shadow: 0 5px 15px rgba(2, 2, 2, 0.25);
 }
 /*#endregion Contact*/
 
