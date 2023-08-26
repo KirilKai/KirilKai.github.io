@@ -5,12 +5,15 @@ window.onload = function () {
   cards.forEach((card) => {
     let seeMoreBtn = card.querySelector('.see-more-btn');
     let textContent = card.querySelector('.card-content .text');
+    let hiddenImage = card.querySelector('.hidden-image');
+
     if (textContent.scrollHeight == textContent.clientHeight) {
       seeMoreBtn.style.display = 'none';
       textContent.style.height = 'fit-content';
     } else {
       card.classList.add('gradient');
     }
+    hiddenImage.style.display = 'none';
   });
 };
 
@@ -18,6 +21,7 @@ window.onload = function () {
 cards.forEach((card) => {
   let seeMoreBtn = card.querySelector('.see-more-btn');
   let textContent = card.querySelector('.card-content .text');
+  let hiddenImage = card.querySelector('.hidden-image');
 
   seeMoreBtn.addEventListener('click', () => {
     card.classList.toggle('active');
@@ -26,9 +30,11 @@ cards.forEach((card) => {
     if (card.classList.contains('active')) {
       seeMoreBtn.innerHTML = 'See Less';
       textContent.style.height = textContent.scrollHeight + 'px';
+      hiddenImage.style.display = 'block';
     } else {
       seeMoreBtn.innerHTML = 'See More';
       textContent.style.height = '100px';
+      hiddenImage.style.display = 'none';
     }
   });
 });
