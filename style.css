@@ -204,7 +204,7 @@ footer p {
 .skills ul div {
   display: flex;
   font-weight: bold;
-  margin: 20px;
+  margin: 23px;
 }
 
 .skills ul div li {
@@ -436,7 +436,7 @@ footer p {
   .about-me-container {
     width: 100%;
     flex-direction: column;
-    margin-bottom: 250px;
+    margin-bottom: 100px;
   }
 
   .about-me-left {
@@ -463,7 +463,7 @@ footer p {
   }
 
   .card-section {
-    margin-bottom: 250px;
+    margin-bottom: 100px;
   }
 
   .card-section h1 {
@@ -489,7 +489,7 @@ footer p {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 250px;
+    margin-bottom: 100px;
   }
 
   .about-me-info-left {
