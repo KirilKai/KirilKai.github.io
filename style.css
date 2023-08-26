@@ -84,7 +84,7 @@ footer p {
   border-radius: 30px;
   border-top: 3px solid rgba(2, 2, 2, 0.25);
   border-bottom: 3px solid rgba(2, 2, 2, 0.25);
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   margin-top: 80px;
 }
 
@@ -172,7 +172,7 @@ footer p {
   border-top: 3px solid rgba(2, 2, 2, 0.25);
   border-bottom: 3px solid rgba(2, 2, 2, 0.25);
   min-height: 300px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   padding: 30px;
 }
 
@@ -223,7 +223,7 @@ footer p {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   flex-direction: column;
 }
 
