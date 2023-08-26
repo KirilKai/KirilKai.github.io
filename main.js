@@ -69,3 +69,9 @@ document.querySelectorAll('.card .card-img img').forEach((image) => {
 document.querySelector('.popup-image span').onclick = () => {
   document.querySelector('.popup-image').style.display = 'none';
 };
+
+window.addEventListener('scroll', () => {
+  document.querySelector('.popup-image').style.display = 'none';
+});
+
+
