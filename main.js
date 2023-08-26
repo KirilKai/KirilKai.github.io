@@ -73,5 +73,3 @@ document.querySelector('.popup-image span').onclick = () => {
 window.addEventListener('scroll', () => {
   document.querySelector('.popup-image').style.display = 'none';
 });
-
-

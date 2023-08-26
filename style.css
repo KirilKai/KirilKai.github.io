@@ -116,6 +116,8 @@ footer p {
   justify-content: center;
   text-align: center;
   margin: 10px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .about-me-right h1 {
@@ -448,6 +450,8 @@ footer p {
 
   .about-me-right {
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 
   .about-me-right h2 {
