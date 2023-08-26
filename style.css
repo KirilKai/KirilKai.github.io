@@ -511,5 +511,9 @@ footer p {
   .popup-image img {
     width: 95%;
   }
+
+  nav li a {
+    font-size: small;
+  }
 }
 /*#endregion Media*/
