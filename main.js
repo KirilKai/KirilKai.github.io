@@ -13,7 +13,7 @@ window.onload = function () {
     } else {
       card.classList.add('gradient');
     }
-    hiddenImage.style.display = 'none';
+    // hiddenImage.style.display = 'none';
   });
 };
 
