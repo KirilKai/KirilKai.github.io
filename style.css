@@ -22,6 +22,53 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+nav {
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+nav li a {
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li:hover {
+  background: #a47008;
+  color: #a7a3a3;
+}
+
+.aboutnav,
+.projectsnav,
+.contactnav {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer p {
+  text-align: center;
+}
 /*#endregion Basic*/
 
 /*#region Hello*/
@@ -33,6 +80,7 @@ body {
   border-top: 3px solid rgba(2, 2, 2, 0.25);
   border-bottom: 3px solid rgba(2, 2, 2, 0.25);
   margin-bottom: 20px;
+  margin-top: 80px;
 }
 
 .about-me-left {
@@ -66,14 +114,17 @@ body {
 
 .about-me-right h1 {
   font-size: 3em;
+  font-weight: bold;
 }
 
 .about-me-right h2 {
   font-size: 3.5em;
   margin-bottom: 50px;
+  font-weight: bold;
 }
 
 .about-me-right h3 {
+  font-weight: bold;
   font-size: 2em;
 }
 
@@ -105,11 +156,27 @@ body {
 .about-me-info-left h1 {
   text-align: center;
   text-shadow: 0 5px 25px rgba(2, 2, 2, 0.25);
+  margin-bottom: 50px;
 }
 
 .about-me-info-right h1 {
   text-align: center;
   text-shadow: 0 5px 25px rgba(2, 2, 2, 0.25);
+}
+
+.skills ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skills ul div {
+  display: flex;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.skills ul div li {
+  margin-left: 10px;
 }
 /*#endregion About*/
 
@@ -225,8 +292,7 @@ body {
   border-radius: 30px;
   border-top: 3px solid rgba(2, 2, 2, 0.25);
   border-bottom: 3px solid rgba(2, 2, 2, 0.25);
-  min-height: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 300px;
   width: 100%;
   text-align: center;
   padding: 30px;
@@ -235,6 +301,16 @@ body {
 .contact-me-container h1 {
   text-shadow: 0 5px 25px rgba(2, 2, 2, 0.25);
 }
+
+.contact-me-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-me-content p {
+  text-align: center;
+}
+
 /*#endregion Contact*/
 
 /*#region visible*/
@@ -257,12 +333,16 @@ body {
   body {
     overflow-x: hidden;
     position: relative;
-    max-width: fit-content;
+    max-width: 99%;
     /* width: calc(100% - 5px); */
   }
 
   body {
     margin: 5px;
+  }
+
+  nav {
+    width: 100%;
   }
 
   .about-me-container {
