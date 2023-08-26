@@ -178,7 +178,7 @@ footer p {
 .skills ul div {
   display: flex;
   font-weight: bold;
-  margin: 30px;
+  margin: 20px;
 }
 
 .skills ul div li {
@@ -302,7 +302,7 @@ footer p {
   border-radius: 30px;
   border-top: 3px solid rgba(2, 2, 2, 0.25);
   border-bottom: 3px solid rgba(2, 2, 2, 0.25);
-  margin-bottom: 250px;
+  margin-bottom: 220px;
   width: 100%;
   padding: 30px;
   display: flex;
