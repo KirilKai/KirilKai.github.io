@@ -106,7 +106,7 @@ footer p {
   max-height: fit-content;
   width: 80%;
   height: 80%;
-  box-shadow: 0 5px 25px rgba(2, 2, 2, 0.25);
+  box-shadow: 0 0 20px rgba(2, 2, 2, 0.9);
 }
 
 .about-me-right {
@@ -123,6 +123,7 @@ footer p {
 .about-me-right h1 {
   font-size: 3em;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .about-me-right h2 {
@@ -204,7 +205,9 @@ footer p {
 .skills ul div {
   display: flex;
   font-weight: bold;
-  margin: 23px;
+  align-items: center;
+  margin-top: 23px;
+  margin-bottom: 23px;
 }
 
 .skills ul div li {
@@ -449,6 +452,7 @@ footer p {
   }
 
   .about-me-right {
+    margin: 0 auto;
     width: 100%;
     margin-top: 0;
     margin-bottom: 20px;
